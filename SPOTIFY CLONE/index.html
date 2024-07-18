@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Spotify - Web Player: Music for everyone</title> -->
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="icon" href="assests/images/logo.png" type="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main flex">
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="assests/images/hamcross.svg" alt="" width="35">
+
+            </div>
+
+            <div class="home bg-color rounded p-1 m-1">
+
+                <div class="logo">
+                    <img class="invert" src="assests/images/logo_main.svg" alt="" width="110">
+                </div>
+
+                <ul>
+                    <li><img class="invert" src="assests/images/home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="assests/images/search.svg" alt="home">Search</li>
+                </ul>
+            </div>
+            <div class="library rounded bg-color m-1 p-1 ">
+                <div class="header">
+                    <img class="invert" src="assests/images/library.svg" alt="library">
+                    Your Library <img class="invert" src="assests/images/plus.svg" alt="">
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <!-- <li>
+                             <img src="assests/images/music.svg" alt=""class="invert"width="20px">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                               <span>PlayNow</span>
+                            <i class="fa-solid fa-play"></i>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div> <a href="https://www.spotify.com/in-en/legal/" id="" data-encore-id="textLink"><span
+                                data-encore-id="type">Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" id="" data-encore-id="textLink">
+                            <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id="" data-encore-id="textLink">
+                            <span data-encore-id="type">Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="" data-encore-id="textLink">
+                            <span data-encore-id="type">Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id=""
+                            data-encore-id="textLink">
+                            <span data-encore-id="type">About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/" id="" data-encore-id="textLink">
+                            <span data-encore-id="type">Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right  rounded  m-1 ">
+            <div class="header-right bg-color ">
+                <div class="nav">
+                    <div class="hamburger-cont">
+
+                        <img class="invert hamburger " src="assests/images/hamburger.svg" alt="">
+                        <button><img class="invert" src="assests/images/arrow.svg" alt=""></button>
+                        <button><img class="invert" src="assests/images/arrow2.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="buttons">
+
+                    <button>Sign up</button>
+                    <button>Log In</button>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <span>Popular artists</span>
+                <div class="cardContainer ">
+                    <div data-folder="ncs" class="card1">
+                        <div class="imgpritam">
+                            <img src="assests/images/pritam.jpeg" alt="">
+                            <div class="playbtn">
+                                <img src="assests/images/playbtn.svg" alt="" class="playbtn">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <span>Pritam</span>
+                            <p>Artist</p>
+                        </div>
+
+                    </div>
+                    <div data-folder="cs" class="card1">
+                        <div class="imgpritam">
+                            <img src="assests/images/arijt.jpeg" alt="">
+                            <div class="playbtn">
+                                <img src="assests/images/playbtn.svg" alt="" class="playbtn">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <span>Arijit Singh</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="imgpritam">
+                            <img src="assests/images/ar.jpeg" alt="">
+                            <div class="playbtn">
+                                <img src="assests/images/playbtn.svg" alt="" class="playbtn">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <span>A.R. Rahman</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="imgpritam">
+                            <img src="assests/images/anirudd.jpeg" alt="">
+                            <div class="playbtn">
+                                <img src="assests/images/playbtn.svg" alt="" class="playbtn">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <span>Anirudh Ravichander</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="imgpritam">
+                            <img src="assests/images/sachin.jpeg" alt="">
+                            <div class="playbtn">
+                                <img src="assests/images/playbtn.svg" alt="" class="playbtn">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <span>Sachin-Jigar</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <div class="imgpritam">
+                            <img src="assests/images/vishal.jpeg" alt="">
+                            <div class="playbtn">
+                                <img src="assests/images/playbtn.svg" alt="" class="playbtn">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <span>Vishal Mishra</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="playsong ">
+                        <div class="seekbar">
+                            <div class="circle">
+
+                            </div>
+                        </div>
+                        <div class="abovebar">
+                            <div class="songinfo invert"></div>
+
+                            <div class="songbtn ">
+                                <img src="assests/images/backward.svg" alt="" width="22" id="previous">
+                                <img src="assests/images/playmusic.svg" alt="" width="22" id="play">
+                                <img src="assests/images/forward.svg" alt="" width="22" id="next">
+                            </div>
+                            <!-- <i class="fa-solid fa-backward-step" id="previous"></i>
+                                                        <i class="fa-solid fa-play" id="play"></i>
+                                                        <i class="fa-solid fa-forward-step" id="next"></i> -->
+                            <div class="durvol">
+                                <div class="songtime invert"></div>
+                                <div class="volume invert">
+                                    <img  src="assests/images/volume.svg" alt="" width="22">
+                                    <div class="range">
+                                        <input type="range" name="volume" id="range">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
